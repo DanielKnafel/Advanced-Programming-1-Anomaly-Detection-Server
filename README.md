@@ -10,6 +10,7 @@ It does so by first learning what a "normal" data set is considered to be, and t
 
 ## Detailed Explanation
 'AnomalyDetector.h' - declares an interface for TimeSeries anomaly detectors as well as 2 ways of representing anomalies.
+
 'SimpleAnomalyDetector.h' - declares a specific anomaly detector implementing the AnomalyDetector interface. It uses a linear regression algorithm for the anomaly detection.
 'SimpleAnomalyDetector.cpp' - the main unit of the project. It studies the correlations in a 'normal' data-set, and then searches for anomalies in any data-set, based on the knowledge gained during the learning phase. 
 'HybridAnomalyDetector.h' - declares another specific anomaly detector. It uses both linear regression and minimal encolsing circle algorithms for the anomaly detection.
