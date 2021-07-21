@@ -1,7 +1,7 @@
 # Advanced-Programming-1-Anomaly-Detection-Server
 A project created by me as part of Advanced Programming 1.
 ## Introduction
-In this C++ project, I created a TCP server capable of detecting anomalies in a time-sereies data file.
+In this C++ project, I created a TCP server capable of detecting anomalies in a time-series data file.
 It does so by first learning what a "normal" data set is considered to be, and then analyzing any data set with the same features and calling out anomalies in it.
 
 *This project shows the use of:*
